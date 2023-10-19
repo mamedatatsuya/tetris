@@ -1,0 +1,60 @@
+body{
+	background-color: #263238;
+}
+
+.menu{
+	color: #FFFFFF;
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.game{
+	float: left;
+	margin-left: 200px;
+}
+
+.plus{
+	color: #FFFFFF;
+	font-size: 200%;
+	text-align: center;
+}
+
+table{
+	width: 300px; /*表の幅*/
+	height: 600px; /*表の高さ*/
+}
+
+td{
+	width: 10%; /*セルの幅*/
+	height: 5%; /*セルの高さ*/
+	background-color: #455A64; /*セルの背景色*/
+}
+
+.i {
+	background-color: #00BCD4; /*cyan*/
+}
+
+.o {
+	background-color: #FFEB3B; /*yellow*/
+}
+
+.t {
+	background-color: #9C27B0; /*purple*/
+}
+
+.s {
+	background-color: #4CA550; /*green*/
+}
+
+.z {
+	background-color: #F44336; /*red*/
+}
+
+.j {
+	background-color: #2196F3; /*blue*/
+}
+
+.l {
+	background-color: #FF9800; /*orange*/
+}
