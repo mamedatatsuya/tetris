@@ -1,0 +1,89 @@
+body{
+	background-color: #263238;
+}
+
+.game{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+}
+
+.statasbar{
+	color: #FFFFFF;
+}
+
+.board{
+	position: absolute;
+	top: 0;
+	left:300px;
+}
+
+.view{
+	color: #FFFFFF;
+	text-align: center;
+	position: absolute; 
+	top: 0;
+	left:700px;
+}
+
+#gameBoard{
+	width: 300px; /*表の幅*/
+	height: 600px; /*表の高さ*/
+}
+
+#nextBoard{
+	width: 100px; /*表の幅*/
+	height: 100px; /*表の高さ*/
+}
+
+#holdBoard{
+	width: 100px; /*表の幅*/
+	height: 100px; /*表の高さ*/
+}
+
+td{
+	width: 10%; /*セルの幅*/
+	height: 5%; /*セルの高さ*/
+	background-color: #455A64; /*セルの背景色*/
+}
+
+#start{
+	margin-top: 100px;
+	width: 100px;
+	height: 100px;
+	border: none;
+	border-bottom: solid 2px #c0c0c0;
+	border-radius: 50%;
+	 box-shadow: inset 15px 30px 40px rgba(255, 255, 255, 0.5), 0 3px 7px rgba(0, 0, 0, .2);
+	background-image: linear-gradient(#5aa6dd 0%, #4a96cd 100%);
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+.i {
+	background-color: #00BCD4; /*cyan*/
+}
+
+.o {
+	background-color: #FFEB3B; /*yellow*/
+}
+
+.t {
+	background-color: #9C27B0; /*purple*/
+}
+
+.s {
+	background-color: #4CA550; /*green*/
+}
+
+.z {
+	background-color: #F44336; /*red*/
+}
+
+.j {
+	background-color: #2196F3; /*blue*/
+}
+
+.l {
+	background-color: #FF9800; /*orange*/
+}
