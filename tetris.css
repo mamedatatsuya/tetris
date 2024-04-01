@@ -28,7 +28,7 @@ body{
 
 #gameBoard{
 	width: 300px; /*表の幅*/
-	height: 600px; /*表の高さ*/
+	height: 500px; /*表の高さ*/
 }
 
 #nextBoard{
